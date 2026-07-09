@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -7,11 +7,11 @@ export default function Navbar() {
       <div className="logo">AURA</div>
       
       <div className="nav-links">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/services">Services</a>
-        <a href="/gallery">Gallery</a>
-        <a href="/contact">Contact</a>
+        <Link to="/"> Home </Link>
+        <Link to="/about"> About </Link>
+        <Link to="/services"> Services </Link>
+        <Link to="/gallery"> Gallery </Link>
+        <Link to="/contact"> Contact </Link>
       </div>
     </nav>
   );

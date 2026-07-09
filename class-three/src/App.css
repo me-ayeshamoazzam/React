@@ -145,3 +145,85 @@ button {
   font-size: 0.85rem;
   letter-spacing: 1px;
 }
+
+/* --- New Additions --- */
+.section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+
+.testimonial-banner {
+  background-color: #f0efeb;
+  text-align: center;
+  padding: 5rem 10%;
+  margin: 5rem 0;
+}
+
+.testimonial-banner h3 {
+  font-size: 2rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.team-card img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+/* --- Services Process Section --- */
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.step-number {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #b09977; /* A subtle gold/tan accent color */
+  margin-bottom: 0.5rem;
+}
+
+.cta-banner {
+  background-color: #121212;
+  color: white;
+  text-align: center;
+  padding: 6rem 5%;
+  margin-top: 5rem;
+}
+
+/* --- Gallery Projects Section --- */
+.project-header {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.project-location {
+  color: #5a5a5a;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+.project-section {
+  margin-bottom: 6rem;
+}

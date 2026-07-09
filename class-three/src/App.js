@@ -1,5 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -9,14 +11,17 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <>
-      <Home></Home>
-      <Navbar></Navbar>
-      <About></About>
-      <Contact></Contact>
-      <Gallery></Gallery>
-      <Services></Services>
-    </>
+    <BrowserRouter>
+      <Navbar />
+      
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/gallery' element={<Gallery />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
