@@ -1,0 +1,17 @@
+
+.counter{
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  padding-top: 20%;
+}
+button{
+  border: none;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(136, 255, 255);
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bolder;
+  
+}
